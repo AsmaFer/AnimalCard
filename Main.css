@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #007978;
+}
+#box{
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main{
+    height: 500px;
+    width: 500px;
+    background-image: url(giraffe.jpg);
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+
+#AnimalFiche button,#AnimalDesc button{
+    height: 35px;
+    width: 130px;
+    background-color:turquoise;
+    font-family: monospace;
+    font-size: 16px;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 175px;
+}
+#done_btn,#discover_btn{
+    height: 35px;
+    width: 120px;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    left: 75%;
+    top:65%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+#discover_btn{
+    left: 25%;
+}
+#done_btn:hover,#discover_btn:hover{
+    background-color:white;
+    color:#2d2d2d;
+    cursor: pointer;
+}
+#Animal_desc{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 23px;
+    color:white;
+    position: absolute;
+    top:35%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#Animal{
+    font-family: arial black;
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    top:45%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#Animal{
+    left: 25%;
+}
